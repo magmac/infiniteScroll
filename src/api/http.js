@@ -1,11 +1,11 @@
 import axios from 'axios';
 import qs from 'qs';
 
-const token = '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';
+const token = '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';
 const baseApiURL = 'https://api.github.com/';
 const instance = axios.create();
 instance.defaults.baseURL = baseApiURL;
-instance.defaults.headers.Authorization = `Bearer ${token}`;
+instance.defaults.headers.Authorization = `${token}`;
 
 // 請求攔截
 const requestInterceptors = (ite) => {
