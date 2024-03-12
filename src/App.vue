@@ -1,6 +1,6 @@
 <template>
   <ul class="box">
-    <li class="item" v-for="(item, idx) in state.repos" :key="idx">
+    <li class="item" v-for="(item, idx) in state.repos" :key="item.name">
       <div class="name">{{ item.name }}</div>
       <div class="description">{{ item.description }}</div>
       <div class="language">{{ item.language }}</div>

@@ -1,7 +1,7 @@
 import axios from 'axios';
 import qs from 'qs';
 
-const token = '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';
+const token = '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'; // 2024/3/12 90 days
 const baseApiURL = 'https://api.github.com/';
 const instance = axios.create();
 instance.defaults.baseURL = baseApiURL;
